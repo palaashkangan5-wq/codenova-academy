@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeNova Academy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav class="navbar">
+    <div class="logo">💻 CodeNova Academy</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+        <a href="#funding">Funding</a>
+        <a href="#registration">Register</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+<body>
+
+    <header>
+        <header class="hero">
+    <div class="hero-content">
+
+        <p class="hero-badge">🚀 Learn Coding Online</p>
+
+        <h1>💻 CodeNova Academy</h1>
+
+        <p class="hero-title">
+            Learn Coding. Build Skills. Create Your Future.
+        </p>
+
+        <p class="hero-text">
+            Learn Python, HTML, CSS and JavaScript
+            through simple lessons and practical projects.
+        </p>
+
+        <a href="#courses">
+            <button>Start Learning 🚀</button>
+        </a>
+
+    </div>
+</header>
+    </header>
+<section class="courses" id="courses"></section>
+    <h2>📚 Our Courses</h2>
+
+    <div class="course-container">
+
+  <div class="course-card">
+    <h3>🐍 Python Course</h3>
+    <p>Learn Python from beginner to project level.</p>
+
+    <a href="python.html">
+        <button>View Course</button>
+    </a>
+</div>
+<div class="course-card">
+    <h3>🌐 HTML & CSS Course</h3>
+    <p>Learn how to create beautiful websites.</p>
+
+    <a href="html-css.html">
+        <button>View Course</button>
+    </a>
+</div>
+
+  <div class="course-card">
+    <h3>⚡ JavaScript Course</h3>
+    <p>Learn JavaScript and make websites interactive.</p>
+
+    <a href="javascript.html">
+        <button>View Course</button>
+    </a>
+</div>
+
+    </div>
+</section>
+    <main>
+        <h2>Welcome to CodeNova Academy 🚀</h2>
+
+        <p>
+            Learn Python, HTML, CSS, JavaScript and more
+            through simple video courses.
+        </p>
+<section class="about" id="about">
+
+    <h2>🚀 About CodeNova Academy</h2>
+
+    <p>
+        CodeNova Academy is an online learning platform
+        designed to help beginners learn coding step by step.
+    </p>
+
+    <p>
+        Our courses focus on practical learning, projects
+        and useful programming skills.
+    </p>
+
+    <div class="about-box">
+        <h3>What You Can Learn</h3>
+
+        <p>🐍 Python Programming</p>
+        <p>🌐 HTML & CSS</p>
+        <p>⚡ JavaScript</p>
+        <p>🚀 Website Projects</p>
+    </div>
+
+</section>
+        <button>Start Learning</button>
+        <section class="funding" id="funding">
+
+    <h2>💰 Apply for Funding</h2>
+<div class="funding-box">
+    <h3>📋 Project Proposal</h3>
+
+    <p><strong>Project Name:</strong> CodeNova Academy</p>
+
+    <p><strong>Project Type:</strong> Online Coding Education Platform</p>
+
+    <p><strong>Target Users:</strong> Students and beginners learning coding</p>
+
+    <p><strong>Project Goal:</strong> Make beginner-friendly coding education
+    easier to access through structured courses and practical projects.</p>
+
+    <p><strong>Funding Use:</strong> Course development, educational content,
+    website improvements and learning projects.</p>
+</div>
+    <p>
+        CodeNova Academy is an educational project focused on
+        helping beginners learn coding through structured courses
+        and practical projects.
+    </p>
+
+    <h3>🎯 Our Goal</h3>
+
+    <p>
+        We want to make coding education easier and more accessible
+        for students and beginners.
+    </p>
+
+    <h3>📌 What Funding Can Support</h3>
+
+    <p>• Course development</p>
+    <p>• Educational content</p>
+    <p>• Website development</p>
+    <p>• Learning projects</p>
+
+    <button onclick="showFundingMessage()">
+        Apply for Funding
+    </button>
+
+    <p id="fundingMessage"></p>
+
+</section>
+<section class="registration" id="registration">
+<section class="contact" id="contact">
+    <h2>📩 Contact CodeNova Academy</h2>
+
+    <p>
+        Have a question about our coding courses?
+        Send us a message.
+    </p>
+
+    <form id="contactForm">
+
+        <label for="contactName">Your Name</label>
+        <input type="text" id="contactName" placeholder="Enter your name" required>
+
+        <label for="contactEmail">Your Email</label>
+        <input type="email" id="contactEmail" placeholder="Enter your email" required>
+
+        <label for="contactMessage">Message</label>
+        <textarea id="contactMessage" rows="5"
+            placeholder="Write your message..." required></textarea>
+
+        <button type="submit">Send Message 📩</button>
+
+    </form>
+
+    <p id="contactMessageStatus"></p>
+</section>
+    <h2>📝 Student Registration</h2>
+
+    <p>Register your interest in our coding courses.</p>
+
+    <form id="registrationForm">
+
+        <label for="studentName">Full Name</label>
+        <input type="text" id="studentName" placeholder="Enter your name" required>
+
+        <label for="studentEmail">Email</label>
+        <input type="email" id="studentEmail" placeholder="Enter your email" required>
+
+        <label for="courseSelect">Choose Course</label>
+
+        <select id="courseSelect" required>
+            <option value="">Select a course</option>
+            <option value="Python">Python Course</option>
+            <option value="HTML CSS">HTML & CSS Course</option>
+            <option value="JavaScript">JavaScript Course</option>
+        </select>
+
+        <button type="submit">Register 🚀</button>
+
+    </form>
+
+    <p id="registrationMessage"></p>
+
+</section>
+    </main>
+<script src="script.js"></script>
+<footer class="footer">
+    <h3>💻 CodeNova Academy</h3>
+
+    <p>Learn Coding. Build Skills. Create Your Future.</p>
+
+    <p>© 2026 CodeNova Academy. All Rights Reserved.</p>
+</footer>
+</body>
+
+</html>

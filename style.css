@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+header {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px 25px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+main h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}.courses {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.course-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background: white;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.course-card h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.course-card button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.course-card button:hover {
+    background: #1d4ed8;
+}.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}.about {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 45px 30px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.about-box {
+    margin-top: 30px;
+    padding: 25px;
+    background: #f5f7fb;
+    border-radius: 15px;
+}
+
+.about-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    margin: 8px 0;
+}.funding {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 45px 30px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.funding h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.funding h3 {
+    font-size: 23px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.funding p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.funding button {
+    margin-top: 25px;
+}.footer {
+    margin-top: 60px;
+    padding: 40px 20px;
+    text-align: center;
+    background: #111827;
+    color: white;
+}
+
+.footer h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 8px 0;
+    line-height: 1.6;
+}.hero {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background: white;
+    color: #2563eb;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    transform: translateY(-2px);
+}.registration {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.registration h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.registration > p {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration label {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.registration input,
+.registration select {
+    padding: 13px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.registration button {
+    margin-top: 25px;
+}
+
+#registrationMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}@media (max-width: 700px) {
+.contact {
+    margin: 30px 15px;
+    padding: 30px 20px;
+}
+
+.contact h2 {
+    font-size: 27px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+}
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 18px 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-title {
+        font-size: 21px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    main {
+        margin: 30px 15px;
+    }
+
+    .course-card {
+        width: 100%;
+    }
+
+    .about,
+    .funding,
+    .registration {
+        margin: 30px 15px;
+        padding: 30px 20px;
+    }
+
+}.course-info {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #f5f7fb;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.course-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.course-info p {
+    margin: 10px 0;
+    font-size: 17px;
+}.contact {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact > p {
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    padding: 13px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.contact button {
+    margin-top: 25px;
+}
+
+#contactMessageStatus {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}/* Professional Design */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.course-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+button {
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.nav-links a {
+    transition: color 0.2s ease;
+}.funding-box {
+    margin: 30px 0;
+    padding: 25px;
+    background: #f5f7fb;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.funding-box h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.funding-box p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
