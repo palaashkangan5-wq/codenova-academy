@@ -487,4 +487,42 @@ button:hover {
 .funding-box p {
     margin-bottom: 15px;
     line-height: 1.7;
+}.instructor {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 45px 30px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.instructor h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.instructor h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.instructor > p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.instructor-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.instructor-box p {
+    padding: 12px 18px;
+    background: #f5f7fb;
+    border-radius: 10px;
+    font-weight: bold;
 }
