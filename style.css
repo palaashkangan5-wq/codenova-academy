@@ -525,4 +525,34 @@ button:hover {
     background: #f5f7fb;
     border-radius: 10px;
     font-weight: bold;
+}.funding-intro {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #f5f7fb;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.funding-intro h3 {
+    font-size: 22px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.funding-intro h3:first-child {
+    margin-top: 0;
+}
+
+.funding-intro p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}.funding-box p {
+    margin-bottom: 12px;
+}.funding-intro h3 {
+    color: #2563eb;
+}
+
+.funding-intro p {
+    line-height: 1.8;
 }
